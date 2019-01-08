@@ -8,6 +8,7 @@ export const Card = styled.div`
     color: ${black};
     ${elevation[4]};
     ${transition({
+        property: 'box-shadow',
         ease: 'ease-in',
         length: '1s'
     })};
